@@ -7,125 +7,127 @@ Confidential and Proprietary - Protected under copyright and other laws.
 ==============================================================================*/
 
 using UnityEngine;
-using Vuforia;
 using UnityEngine.Video;
 
-/// <summary>
-/// A custom handler that implements the ITrackableEventHandler interface.
-///
-/// Changes made to this file could be overwritten when upgrading the Vuforia version.
-/// When implementing custom event handler behavior, consider inheriting from this class instead.
-/// </summary>
-public class DefaultTrackableEventHandler : MonoBehaviour, ITrackableEventHandler
+namespace Vuforia.Scripts
 {
-    #region PROTECTED_MEMBER_VARIABLES
-
-    protected TrackableBehaviour mTrackableBehaviour;
-    protected TrackableBehaviour.Status m_PreviousStatus;
-    protected TrackableBehaviour.Status m_NewStatus;
-
-    #endregion // PROTECTED_MEMBER_VARIABLES
-
-    #region UNITY_MONOBEHAVIOUR_METHODS
-
-    protected virtual void Start()
-    {
-        mTrackableBehaviour = GetComponent<TrackableBehaviour>();
-        if (mTrackableBehaviour)
-            mTrackableBehaviour.RegisterTrackableEventHandler(this);
-    }
-
-    protected virtual void OnDestroy()
-    {
-        if (mTrackableBehaviour)
-            mTrackableBehaviour.UnregisterTrackableEventHandler(this);
-    }
-
-    #endregion // UNITY_MONOBEHAVIOUR_METHODS
-
-    #region PUBLIC_METHODS
-
     /// <summary>
-    ///     Implementation of the ITrackableEventHandler function called when the
-    ///     tracking state changes.
+    /// A custom handler that implements the ITrackableEventHandler interface.
+    ///
+    /// Changes made to this file could be overwritten when upgrading the Vuforia version.
+    /// When implementing custom event handler behavior, consider inheriting from this class instead.
     /// </summary>
-    public void OnTrackableStateChanged(
-        TrackableBehaviour.Status previousStatus,
-        TrackableBehaviour.Status newStatus)
+    public class DefaultTrackableEventHandler : MonoBehaviour, ITrackableEventHandler
     {
-        Debug.Log(videoPlayer.isPlaying);
-        m_PreviousStatus = previousStatus;
-        m_NewStatus = newStatus;
+        #region PROTECTED_MEMBER_VARIABLES
 
-        if (newStatus == TrackableBehaviour.Status.DETECTED ||
-            newStatus == TrackableBehaviour.Status.TRACKED ||
-            newStatus == TrackableBehaviour.Status.EXTENDED_TRACKED)
+        protected TrackableBehaviour MTrackableBehaviour;
+        protected TrackableBehaviour.Status MPreviousStatus;
+        protected TrackableBehaviour.Status MNewStatus;
+
+        #endregion // PROTECTED_MEMBER_VARIABLES
+
+        #region UNITY_MONOBEHAVIOUR_METHODS
+
+        protected virtual void Start()
         {
-            Debug.Log("Trackable " + mTrackableBehaviour.TrackableName + " found");
-            OnTrackingFound();
+            MTrackableBehaviour = GetComponent<TrackableBehaviour>();
+            if (MTrackableBehaviour)
+                MTrackableBehaviour.RegisterTrackableEventHandler(this);
         }
-        else if (previousStatus == TrackableBehaviour.Status.TRACKED &&
-                 newStatus == TrackableBehaviour.Status.NO_POSE)
+
+        protected virtual void OnDestroy()
         {
-            Debug.Log("Trackable " + mTrackableBehaviour.TrackableName + " lost");
-            OnTrackingLost();
+            if (MTrackableBehaviour)
+                MTrackableBehaviour.UnregisterTrackableEventHandler(this);
         }
-        else
+
+        #endregion // UNITY_MONOBEHAVIOUR_METHODS
+
+        #region PUBLIC_METHODS
+
+        /// <summary>
+        ///     Implementation of the ITrackableEventHandler function called when the
+        ///     tracking state changes.
+        /// </summary>
+        public void OnTrackableStateChanged(
+            TrackableBehaviour.Status previousStatus,
+            TrackableBehaviour.Status newStatus)
         {
-            // For combo of previousStatus=UNKNOWN + newStatus=UNKNOWN|NOT_FOUND
-            // Vuforia is starting, but tracking has not been lost or found yet
-            // Call OnTrackingLost() to hide the augmentations
-            OnTrackingLost();
+            Debug.Log(videoPlayer.isPlaying);
+            MPreviousStatus = previousStatus;
+            MNewStatus = newStatus;
+
+            if (newStatus == TrackableBehaviour.Status.DETECTED ||
+                newStatus == TrackableBehaviour.Status.TRACKED ||
+                newStatus == TrackableBehaviour.Status.EXTENDED_TRACKED)
+            {
+                Debug.Log("Trackable " + MTrackableBehaviour.TrackableName + " found");
+                OnTrackingFound();
+            }
+            else if (previousStatus == TrackableBehaviour.Status.TRACKED &&
+                     newStatus == TrackableBehaviour.Status.NO_POSE)
+            {
+                Debug.Log("Trackable " + MTrackableBehaviour.TrackableName + " lost");
+                OnTrackingLost();
+            }
+            else
+            {
+                // For combo of previousStatus=UNKNOWN + newStatus=UNKNOWN|NOT_FOUND
+                // Vuforia is starting, but tracking has not been lost or found yet
+                // Call OnTrackingLost() to hide the augmentations
+                OnTrackingLost();
+            }
         }
-    }
 
-    #endregion // PUBLIC_METHODS
+        #endregion // PUBLIC_METHODS
 
-    public UnityEngine.Video.VideoPlayer videoPlayer;
+        public VideoPlayer videoPlayer;
 
-    #region PROTECTED_METHODS
+        #region PROTECTED_METHODS
 
-    protected virtual void OnTrackingFound()
-    {
-        videoPlayer.Play();
-        var rendererComponents = GetComponentsInChildren<Renderer>(true);
-        var colliderComponents = GetComponentsInChildren<Collider>(true);
-        var canvasComponents = GetComponentsInChildren<Canvas>(true);
+        protected virtual void OnTrackingFound()
+        {
+            videoPlayer.Play();
+            var rendererComponents = GetComponentsInChildren<Renderer>(true);
+            var colliderComponents = GetComponentsInChildren<Collider>(true);
+            var canvasComponents = GetComponentsInChildren<Canvas>(true);
 
-        // Enable rendering:
-        foreach (var component in rendererComponents)
-            component.enabled = true;
+            // Enable rendering:
+            foreach (var component in rendererComponents)
+                component.enabled = true;
 
-        // Enable colliders:
-        foreach (var component in colliderComponents)
-            component.enabled = true;
+            // Enable colliders:
+            foreach (var component in colliderComponents)
+                component.enabled = true;
 
-        // Enable canvas':
-        foreach (var component in canvasComponents)
-            component.enabled = true;
+            // Enable canvas':
+            foreach (var component in canvasComponents)
+                component.enabled = true;
     
+        }
+
+
+        protected virtual void OnTrackingLost()
+        {
+            videoPlayer.Pause();
+            var rendererComponents = GetComponentsInChildren<Renderer>(true);
+            var colliderComponents = GetComponentsInChildren<Collider>(true);
+            var canvasComponents = GetComponentsInChildren<Canvas>(true);
+
+            // Disable rendering:
+            foreach (var component in rendererComponents)
+                component.enabled = false;
+
+            // Disable colliders:
+            foreach (var component in colliderComponents)
+                component.enabled = false;
+
+            // Disable canvas':
+            foreach (var component in canvasComponents)
+                component.enabled = false;
+        }
+
+        #endregion // PROTECTED_METHODS
     }
-
-
-    protected virtual void OnTrackingLost()
-    {
-        videoPlayer.Pause();
-        var rendererComponents = GetComponentsInChildren<Renderer>(true);
-        var colliderComponents = GetComponentsInChildren<Collider>(true);
-        var canvasComponents = GetComponentsInChildren<Canvas>(true);
-
-        // Disable rendering:
-        foreach (var component in rendererComponents)
-            component.enabled = false;
-
-        // Disable colliders:
-        foreach (var component in colliderComponents)
-            component.enabled = false;
-
-        // Disable canvas':
-        foreach (var component in canvasComponents)
-            component.enabled = false;
-    }
-
-    #endregion // PROTECTED_METHODS
 }

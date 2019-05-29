@@ -11,6 +11,7 @@ using UnityEditor;
 using UnityEngine;
 using Vuforia;
 using Vuforia.EditorClasses;
+using Vuforia.Scripts;
 
 /// <summary>
 /// Creates connection between open source files and the Vuforia library.
