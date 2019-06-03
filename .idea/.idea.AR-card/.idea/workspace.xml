@@ -3,7 +3,16 @@
   <component name="ChangeListManager">
     <list default="true" id="b2ea65c1-d55a-47d0-a4a7-ca030b82d290" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/.idea.AR-card/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.AR-card/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Resources/VuforiaConfiguration.asset" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Resources/VuforiaConfiguration.asset" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Editor/Vuforia/ImageTargetTextures/TargetArt/Cartao_lab3D_scaled.jpg.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Editor/Vuforia/ImageTargetTextures/TargetArt/Cartao_lab3D_scaled.jpg.meta" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Editor/Vuforia/ImageTargetTextures/TargetArt/target_charmander_scaled.jpg.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Editor/Vuforia/ImageTargetTextures/TargetArt/target_charmander_scaled.jpg.meta" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Editor/Vuforia/ImageTargetTextures/TargetArt/target_sands_scaled.jpg.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Editor/Vuforia/ImageTargetTextures/TargetArt/target_sands_scaled.jpg.meta" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Editor/Vuforia/ImageTargetTextures/TargetArt/target_totodile_scaled.jpg.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Editor/Vuforia/ImageTargetTextures/TargetArt/target_totodile_scaled.jpg.meta" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Scenes/SampleScene.unity" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scenes/SampleScene.unity" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/StreamingAssets/Vuforia/TargetArt.dat" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/StreamingAssets/Vuforia/TargetArt.dat" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/StreamingAssets/Vuforia/TargetArt.dat.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/StreamingAssets/Vuforia/TargetArt.dat.meta" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/StreamingAssets/Vuforia/TargetArt.xml" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/StreamingAssets/Vuforia/TargetArt.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/StreamingAssets/Vuforia/TargetArt.xml.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/StreamingAssets/Vuforia/TargetArt.xml.meta" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ProjectSettings/EditorBuildSettings.asset" beforeDir="false" afterPath="$PROJECT_DIR$/ProjectSettings/EditorBuildSettings.asset" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -12,15 +21,15 @@
     <option name="LAST_RESOLUTION" value="IGNORE" />
   </component>
   <component name="FileEditorManager">
-    <leaf>
+    <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/Assets/Vuforia/Scripts/DefaultTrackableEventHandler.cs">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="165">
               <caret line="98" selection-start-line="98" selection-end-line="98" />
               <folding>
+                <element signature="e#368#411#0" expanded="true" />
                 <marker date="1559163398543" expanded="true" signature="0:366" ph="/* ============================================================================== ... */" />
-                <marker date="1559163398543" expanded="true" signature="374:411" ph="..." />
                 <marker date="1559163398543" expanded="true" signature="438:4732" ph="{...}" />
                 <marker date="1559163398543" expanded="true" signature="445:757" ph="/// A custom handler that implements the ITrackableEventHandler interface. ... " />
                 <marker date="1559163398543" expanded="true" signature="843:4730" ph="{...}" />
@@ -44,15 +53,29 @@
         </entry>
       </file>
       <file pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/Assets/GreenToTransparent.shader">
+        <entry file="file://$PROJECT_DIR$/Assets/Vuforia/Scripts/TrackableEventHandler2.cs">
           <provider selected="true" editor-type-id="text-editor">
-            <state>
+            <state relative-caret-position="166">
+              <caret line="24" column="55" lean-forward="true" selection-start-line="24" selection-start-column="55" selection-end-line="24" selection-end-column="55" />
               <folding>
-                <marker date="1559167146676" expanded="true" signature="119:1007" ph="{...}" />
-                <marker date="1559167146676" expanded="true" signature="133:218" ph="{...}" />
-                <marker date="1559167146676" expanded="true" signature="230:1004" ph="{...}" />
-                <marker date="1559167146676" expanded="true" signature="239:1001" ph="{...}" />
-                <marker date="1559167146676" expanded="true" signature="362:992" ph="{...}" />
+                <marker date="1559589534467" expanded="true" signature="0:366" ph="/* ============================================================================== ... */" />
+                <marker date="1559589534467" expanded="true" signature="413:4549" ph="{...}" />
+                <marker date="1559589534467" expanded="true" signature="420:732" ph="/// A custom handler that implements the ITrackableEventHandler interface. ... " />
+                <marker date="1559589534467" expanded="true" signature="812:4547" ph="{...}" />
+                <marker date="1559589534467" expanded="true" signature="827:1087" ph="PROTECTED_MEMBER_VARIABLES" />
+                <marker date="1559589534467" expanded="false" signature="1097:1599" ph="UNITY_MONOBEHAVIOUR_METHODS" />
+                <marker date="1559589534467" expanded="true" signature="1172:1372" ph="{...}" />
+                <marker date="1559589534467" expanded="true" signature="1416:1548" ph="{...}" />
+                <marker date="1559589534467" expanded="false" signature="1609:3058" ph="PUBLIC_METHODS" />
+                <marker date="1559589534467" expanded="true" signature="1641:1803" ph="///     Implementation of the ITrackableEventHandler function called when the ... " />
+                <marker date="1559589534467" expanded="true" signature="1951:3020" ph="{...}" />
+                <marker date="1559589534467" expanded="true" signature="2250:2401" ph="{...}" />
+                <marker date="1559589534467" expanded="true" signature="2546:2695" ph="{...}" />
+                <marker date="1559589534467" expanded="true" signature="2712:3010" ph="{...}" />
+                <marker date="1559589534467" expanded="true" signature="2743:2962" ph="/* For combo of previousStatus=UNKNOWN + newStatus=UNKNOWN|NOT_FOUND ... */" />
+                <marker date="1559589534467" expanded="false" signature="3068:4541" ph="PROTECTED_METHODS" />
+                <marker date="1559589534467" expanded="true" signature="3143:3796" ph="{...}" />
+                <marker date="1559589534467" expanded="true" signature="3846:4500" ph="{...}" />
               </folding>
             </state>
           </provider>
@@ -66,20 +89,22 @@
   <component name="HighlightingSettingsPerFile">
     <setting file="file://$PROJECT_DIR$/Assets/GreenToTransparent.shader" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Assets/CameraFocusController.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Assets/Vuforia/Scripts/TrackableEventHandler2.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Assets/Vuforia/Scripts/DefaultTrackableEventHandler.cs" root0="FORCE_HIGHLIGHTING" />
   </component>
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
         <option value="$PROJECT_DIR$/Assets/Vuforia/Scripts/DefaultTrackableEventHandler.cs" />
+        <option value="$PROJECT_DIR$/Assets/Vuforia/Scripts/TrackableEventHandler2.cs" />
       </list>
     </option>
   </component>
   <component name="ProjectFrameBounds" extendedState="6">
     <option name="x" value="240" />
-    <option name="y" value="128" />
+    <option name="y" value="127" />
     <option name="width" value="1440" />
-    <option name="height" value="773" />
+    <option name="height" value="774" />
   </component>
   <component name="ProjectView">
     <navigator currentView="UnityExplorer" proportions="" version="1">
@@ -87,34 +112,14 @@
     </navigator>
     <panes>
       <pane id="AssemblyExplorer" />
-      <pane id="FileSystemExplorer" />
-      <pane id="UnityExplorer">
-        <subPane>
-          <expand>
-            <path>
-              <item name="" type="e068e287:UnityExplorerRootNode" />
-              <item name="Assets" type="8711f2a6:AssetsRoot" />
-            </path>
-            <path>
-              <item name="" type="e068e287:UnityExplorerRootNode" />
-              <item name="Assets" type="8711f2a6:AssetsRoot" />
-              <item name="Vuforia" type="1045f7f1:UnityExplorerNode" />
-            </path>
-            <path>
-              <item name="" type="e068e287:UnityExplorerRootNode" />
-              <item name="Assets" type="8711f2a6:AssetsRoot" />
-              <item name="Vuforia" type="1045f7f1:UnityExplorerNode" />
-              <item name="Scripts" type="1045f7f1:UnityExplorerNode" />
-            </path>
-          </expand>
-          <select />
-        </subPane>
-        <option name="show-hidden-items" value="false" />
-        <option name="show-project-names" value="true" />
-      </pane>
       <pane id="SolutionExplorer">
         <option name="show-all-files" value="false" />
       </pane>
+      <pane id="UnityExplorer">
+        <option name="show-hidden-items" value="false" />
+        <option name="show-project-names" value="true" />
+      </pane>
+      <pane id="FileSystemExplorer" />
     </panes>
   </component>
   <component name="PropertiesComponent">
@@ -168,11 +173,12 @@
       <option name="presentableId" value="Default" />
       <updated>1559162088025</updated>
       <workItem from="1559162095135" duration="3419000" />
+      <workItem from="1559589488772" duration="660000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="3419000" />
+    <option name="totallyTimeSpent" value="4079000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -187,18 +193,9 @@
     <frame x="-7" y="-7" width="1550" height="838" extended-state="6" />
     <editor active="true" />
     <layout>
-      <window_info id="Favorites" side_tool="true" />
-      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.18456376" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.18724832" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
-      <window_info anchor="bottom" id="NuGet" />
-      <window_info anchor="bottom" id="Docker" show_stripe_button="false" />
-      <window_info anchor="bottom" id="Unity" />
-      <window_info anchor="bottom" id="Database Changes" />
-      <window_info anchor="bottom" id="Version Control" />
-      <window_info anchor="bottom" id="Unit Tests" />
-      <window_info anchor="bottom" id="Terminal" />
-      <window_info anchor="bottom" id="Event Log" side_tool="true" visible="true" weight="0.32871014" />
-      <window_info anchor="bottom" id="Performance Profiler" />
+      <window_info id="Favorites" order="2" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" />
       <window_info anchor="bottom" id="Run" order="2" />
@@ -206,12 +203,21 @@
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
       <window_info anchor="bottom" id="TODO" order="6" />
-      <window_info anchor="right" id="Errors In Solution" />
-      <window_info anchor="right" id="Database" />
-      <window_info anchor="right" id="Unit Tests Coverage" />
+      <window_info anchor="bottom" id="NuGet" order="7" show_stripe_button="false" />
+      <window_info anchor="bottom" id="Performance Profiler" order="8" />
+      <window_info anchor="bottom" id="Docker" order="9" show_stripe_button="false" />
+      <window_info anchor="bottom" id="Version Control" order="10" />
+      <window_info anchor="bottom" id="Unity" order="11" />
+      <window_info anchor="bottom" id="Database Changes" order="12" />
+      <window_info anchor="bottom" id="Unit Tests" order="13" />
+      <window_info anchor="bottom" id="Terminal" order="14" />
+      <window_info anchor="bottom" id="Event Log" order="15" side_tool="true" visible="true" weight="0.32871014" />
       <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
       <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
       <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
+      <window_info anchor="right" id="Errors In Solution" order="3" />
+      <window_info anchor="right" id="Database" order="4" />
+      <window_info anchor="right" id="Unit Tests Coverage" order="5" />
     </layout>
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -247,13 +253,25 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/Assets/GreenToTransparent.shader">
+      <provider selected="true" editor-type-id="text-editor">
+        <state>
+          <folding>
+            <marker date="1559167146676" expanded="true" signature="133:218" ph="{...}" />
+            <marker date="1559167146676" expanded="true" signature="230:1004" ph="{...}" />
+            <marker date="1559167146676" expanded="true" signature="239:1001" ph="{...}" />
+            <marker date="1559167146676" expanded="true" signature="362:992" ph="{...}" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/Assets/Vuforia/Scripts/DefaultTrackableEventHandler.cs">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="165">
           <caret line="98" selection-start-line="98" selection-end-line="98" />
           <folding>
+            <element signature="e#368#411#0" expanded="true" />
             <marker date="1559163398543" expanded="true" signature="0:366" ph="/* ============================================================================== ... */" />
-            <marker date="1559163398543" expanded="true" signature="374:411" ph="..." />
             <marker date="1559163398543" expanded="true" signature="438:4732" ph="{...}" />
             <marker date="1559163398543" expanded="true" signature="445:757" ph="/// A custom handler that implements the ITrackableEventHandler interface. ... " />
             <marker date="1559163398543" expanded="true" signature="843:4730" ph="{...}" />
@@ -275,15 +293,29 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/Assets/GreenToTransparent.shader">
+    <entry file="file://$PROJECT_DIR$/Assets/Vuforia/Scripts/TrackableEventHandler2.cs">
       <provider selected="true" editor-type-id="text-editor">
-        <state>
+        <state relative-caret-position="166">
+          <caret line="24" column="55" lean-forward="true" selection-start-line="24" selection-start-column="55" selection-end-line="24" selection-end-column="55" />
           <folding>
-            <marker date="1559167146676" expanded="true" signature="119:1007" ph="{...}" />
-            <marker date="1559167146676" expanded="true" signature="133:218" ph="{...}" />
-            <marker date="1559167146676" expanded="true" signature="230:1004" ph="{...}" />
-            <marker date="1559167146676" expanded="true" signature="239:1001" ph="{...}" />
-            <marker date="1559167146676" expanded="true" signature="362:992" ph="{...}" />
+            <marker date="1559589534467" expanded="true" signature="0:366" ph="/* ============================================================================== ... */" />
+            <marker date="1559589534467" expanded="true" signature="413:4549" ph="{...}" />
+            <marker date="1559589534467" expanded="true" signature="420:732" ph="/// A custom handler that implements the ITrackableEventHandler interface. ... " />
+            <marker date="1559589534467" expanded="true" signature="812:4547" ph="{...}" />
+            <marker date="1559589534467" expanded="true" signature="827:1087" ph="PROTECTED_MEMBER_VARIABLES" />
+            <marker date="1559589534467" expanded="false" signature="1097:1599" ph="UNITY_MONOBEHAVIOUR_METHODS" />
+            <marker date="1559589534467" expanded="true" signature="1172:1372" ph="{...}" />
+            <marker date="1559589534467" expanded="true" signature="1416:1548" ph="{...}" />
+            <marker date="1559589534467" expanded="false" signature="1609:3058" ph="PUBLIC_METHODS" />
+            <marker date="1559589534467" expanded="true" signature="1641:1803" ph="///     Implementation of the ITrackableEventHandler function called when the ... " />
+            <marker date="1559589534467" expanded="true" signature="1951:3020" ph="{...}" />
+            <marker date="1559589534467" expanded="true" signature="2250:2401" ph="{...}" />
+            <marker date="1559589534467" expanded="true" signature="2546:2695" ph="{...}" />
+            <marker date="1559589534467" expanded="true" signature="2712:3010" ph="{...}" />
+            <marker date="1559589534467" expanded="true" signature="2743:2962" ph="/* For combo of previousStatus=UNKNOWN + newStatus=UNKNOWN|NOT_FOUND ... */" />
+            <marker date="1559589534467" expanded="false" signature="3068:4541" ph="PROTECTED_METHODS" />
+            <marker date="1559589534467" expanded="true" signature="3143:3796" ph="{...}" />
+            <marker date="1559589534467" expanded="true" signature="3846:4500" ph="{...}" />
           </folding>
         </state>
       </provider>

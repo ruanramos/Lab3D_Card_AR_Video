@@ -11,4 +11,7 @@ EditorBuildSettings:
   - enabled: 1
     path: Assets/Scenes/SampleScene.unity
     guid: 9ff9270612da5ff4e964e2a05a9017cf
+  - enabled: 0
+    path: Assets/Scenes/ScenaZoada.unity
+    guid: 053e2b4e46b82624bb28a2a855541ec3
   m_configObjects: {}
