@@ -2,17 +2,12 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="b2ea65c1-d55a-47d0-a4a7-ca030b82d290" name="Default Changelist" comment="">
+      <change beforePath="$PROJECT_DIR$/.idea/.idea.AR-card/.idea/contentModel.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.AR-card/.idea/contentModel.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/.idea.AR-card/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.AR-card/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Editor/Vuforia/ImageTargetTextures/TargetArt/Cartao_lab3D_scaled.jpg.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Editor/Vuforia/ImageTargetTextures/TargetArt/Cartao_lab3D_scaled.jpg.meta" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Editor/Vuforia/ImageTargetTextures/TargetArt/target_charmander_scaled.jpg.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Editor/Vuforia/ImageTargetTextures/TargetArt/target_charmander_scaled.jpg.meta" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Editor/Vuforia/ImageTargetTextures/TargetArt/target_sands_scaled.jpg.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Editor/Vuforia/ImageTargetTextures/TargetArt/target_sands_scaled.jpg.meta" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Editor/Vuforia/ImageTargetTextures/TargetArt/target_totodile_scaled.jpg.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Editor/Vuforia/ImageTargetTextures/TargetArt/target_totodile_scaled.jpg.meta" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/GreenToTransparent.shader" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/GreenToTransparent.shader" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Assets/Scenes/SampleScene.unity" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scenes/SampleScene.unity" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/StreamingAssets/Vuforia/TargetArt.dat" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/StreamingAssets/Vuforia/TargetArt.dat" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/StreamingAssets/Vuforia/TargetArt.dat.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/StreamingAssets/Vuforia/TargetArt.dat.meta" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/StreamingAssets/Vuforia/TargetArt.xml" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/StreamingAssets/Vuforia/TargetArt.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/StreamingAssets/Vuforia/TargetArt.xml.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/StreamingAssets/Vuforia/TargetArt.xml.meta" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/ProjectSettings/EditorBuildSettings.asset" beforeDir="false" afterPath="$PROJECT_DIR$/ProjectSettings/EditorBuildSettings.asset" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/VideoMaterial.mat" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/VideoMaterial.mat.meta" beforeDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -53,10 +48,26 @@
         </entry>
       </file>
       <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/Assets/GreenToTransparent.shader">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="279">
+              <caret line="25" column="31" selection-start-line="25" selection-start-column="31" selection-end-line="25" selection-end-column="31" />
+              <folding>
+                <marker date="1559670765844" expanded="true" signature="119:1007" ph="{...}" />
+                <marker date="1559670765844" expanded="true" signature="133:218" ph="{...}" />
+                <marker date="1559670765844" expanded="true" signature="230:1004" ph="{...}" />
+                <marker date="1559670765844" expanded="true" signature="239:1001" ph="{...}" />
+                <marker date="1559670765844" expanded="true" signature="362:992" ph="{...}" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/Assets/Vuforia/Scripts/TrackableEventHandler2.cs">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="166">
-              <caret line="24" column="55" lean-forward="true" selection-start-line="24" selection-start-column="55" selection-end-line="24" selection-end-column="55" />
+              <caret line="24" column="55" selection-start-line="24" selection-start-column="55" selection-end-line="24" selection-end-column="55" />
               <folding>
                 <marker date="1559589534467" expanded="true" signature="0:366" ph="/* ============================================================================== ... */" />
                 <marker date="1559589534467" expanded="true" signature="413:4549" ph="{...}" />
@@ -83,6 +94,13 @@
       </file>
     </leaf>
   </component>
+  <component name="FindInProjectRecents">
+    <findStrings>
+      <find>uv1</find>
+      <find>v2f</find>
+      <find>COLOR</find>
+    </findStrings>
+  </component>
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
@@ -97,6 +115,8 @@
       <list>
         <option value="$PROJECT_DIR$/Assets/Vuforia/Scripts/DefaultTrackableEventHandler.cs" />
         <option value="$PROJECT_DIR$/Assets/Vuforia/Scripts/TrackableEventHandler2.cs" />
+        <option value="$PROJECT_DIR$/Assets/GreenToTransparent.shader" />
+        <option value="$PROJECT_DIR$/Assets/test.shader" />
       </list>
     </option>
   </component>
@@ -116,6 +136,15 @@
         <option name="show-all-files" value="false" />
       </pane>
       <pane id="UnityExplorer">
+        <subPane>
+          <expand>
+            <path>
+              <item name="" type="e068e287:UnityExplorerRootNode" />
+              <item name="Assets" type="8711f2a6:AssetsRoot" />
+            </path>
+          </expand>
+          <select />
+        </subPane>
         <option name="show-hidden-items" value="false" />
         <option name="show-project-names" value="true" />
       </pane>
@@ -173,12 +202,12 @@
       <option name="presentableId" value="Default" />
       <updated>1559162088025</updated>
       <workItem from="1559162095135" duration="3419000" />
-      <workItem from="1559589488772" duration="660000" />
+      <workItem from="1559589488772" duration="6275000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="4079000" />
+    <option name="totallyTimeSpent" value="9694000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -253,18 +282,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/Assets/GreenToTransparent.shader">
-      <provider selected="true" editor-type-id="text-editor">
-        <state>
-          <folding>
-            <marker date="1559167146676" expanded="true" signature="133:218" ph="{...}" />
-            <marker date="1559167146676" expanded="true" signature="230:1004" ph="{...}" />
-            <marker date="1559167146676" expanded="true" signature="239:1001" ph="{...}" />
-            <marker date="1559167146676" expanded="true" signature="362:992" ph="{...}" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/Assets/Vuforia/Scripts/DefaultTrackableEventHandler.cs">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="165">
@@ -296,7 +313,7 @@
     <entry file="file://$PROJECT_DIR$/Assets/Vuforia/Scripts/TrackableEventHandler2.cs">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="166">
-          <caret line="24" column="55" lean-forward="true" selection-start-line="24" selection-start-column="55" selection-end-line="24" selection-end-column="55" />
+          <caret line="24" column="55" selection-start-line="24" selection-start-column="55" selection-end-line="24" selection-end-column="55" />
           <folding>
             <marker date="1559589534467" expanded="true" signature="0:366" ph="/* ============================================================================== ... */" />
             <marker date="1559589534467" expanded="true" signature="413:4549" ph="{...}" />
@@ -316,6 +333,27 @@
             <marker date="1559589534467" expanded="false" signature="3068:4541" ph="PROTECTED_METHODS" />
             <marker date="1559589534467" expanded="true" signature="3143:3796" ph="{...}" />
             <marker date="1559589534467" expanded="true" signature="3846:4500" ph="{...}" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Assets/test.shader">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="255">
+          <caret line="17" column="26" selection-start-line="17" selection-start-column="26" selection-end-line="17" selection-end-column="26" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Assets/GreenToTransparent.shader">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="279">
+          <caret line="25" column="31" selection-start-line="25" selection-start-column="31" selection-end-line="25" selection-end-column="31" />
+          <folding>
+            <marker date="1559670765844" expanded="true" signature="119:1007" ph="{...}" />
+            <marker date="1559670765844" expanded="true" signature="133:218" ph="{...}" />
+            <marker date="1559670765844" expanded="true" signature="230:1004" ph="{...}" />
+            <marker date="1559670765844" expanded="true" signature="239:1001" ph="{...}" />
+            <marker date="1559670765844" expanded="true" signature="362:992" ph="{...}" />
           </folding>
         </state>
       </provider>
