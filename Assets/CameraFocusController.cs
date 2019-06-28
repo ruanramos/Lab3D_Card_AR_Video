@@ -9,13 +9,13 @@ public class CameraFocusController: MonoBehaviour {
 
  // code from  Vuforia Developer Library
  // https://library.vuforia.com/articles/Solution/Camera-Focus-Modes
- void Start() {    
+ private void Start() {    
   var vuforia = VuforiaARController.Instance;    
   vuforia.RegisterVuforiaStartedCallback(OnVuforiaStarted);    
   vuforia.RegisterOnPauseCallback(OnPaused);
  }  
 
- private void OnVuforiaStarted() {    
+ private void OnVuforiaStarted() {
   CameraDevice.Instance.SetFocusMode(
       CameraDevice.FocusMode.FOCUS_MODE_CONTINUOUSAUTO);
  }

@@ -1,9 +1,8 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <QCARConfig xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="qcar_config.xsd">
   <Tracking>
-    <ImageTarget name="target_fwz" size="410.000000 525.312500" />
-    <ImageTarget name="target_sands" size="5.000000 6.995798" />
-    <ImageTarget name="Cartao_lab3D" size="10.000000 5.416667" />
+    <ImageTarget name="cartao_qr_losango_target" size="21.000000 26.113636" />
+    <ImageTarget name="cartao_qr_quadrados_target" size="20.000000 26.277874" />
     <ImageTarget name="target_totodile" size="5.000000 6.782787" />
     <ImageTarget name="target_charmander" size="6.300000 8.784146" />
   </Tracking>
