@@ -2,20 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="b2ea65c1-d55a-47d0-a4a7-ca030b82d290" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/.idea/.idea.AR-card/.idea/contentModel.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.AR-card/.idea/contentModel.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/.idea.AR-card/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.AR-card/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/47990462262_c1eb5d5a49_o (1).jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/47990462262_c1eb5d5a49_o (1).jpg.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Black Material.mat" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Black Material.mat.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/CameraFocusController.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/CameraFocusController.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Editor/Vuforia/ImageTargetTextures/TargetArt/target_charmander_scaled.jpg.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Editor/Vuforia/ImageTargetTextures/TargetArt/target_charmander_scaled.jpg.meta" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Editor/Vuforia/ImageTargetTextures/TargetArt/target_totodile_scaled.jpg.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Editor/Vuforia/ImageTargetTextures/TargetArt/target_totodile_scaled.jpg.meta" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Scenes/SampleScene.unity" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scenes/SampleScene.unity" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/StreamingAssets/Vuforia/TargetArt.dat" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/StreamingAssets/Vuforia/TargetArt.dat" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/StreamingAssets/Vuforia/TargetArt.dat.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/StreamingAssets/Vuforia/TargetArt.dat.meta" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/StreamingAssets/Vuforia/TargetArt.xml" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/StreamingAssets/Vuforia/TargetArt.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/StreamingAssets/Vuforia/TargetArt.xml.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/StreamingAssets/Vuforia/TargetArt.xml.meta" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/.idea.AR-card/.idea/indexLayout.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.AR-card/.idea/indexLayout.xml" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -221,12 +208,12 @@
       <updated>1559162088025</updated>
       <workItem from="1559162095135" duration="3419000" />
       <workItem from="1559589488772" duration="6877000" />
-      <workItem from="1561573723392" duration="3945000" />
+      <workItem from="1561573723392" duration="3950000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="14241000" />
+    <option name="totallyTimeSpent" value="14246000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -239,7 +226,6 @@
   </component>
   <component name="ToolWindowManager">
     <frame x="-7" y="-7" width="1550" height="838" extended-state="6" />
-    <editor active="true" />
     <layout>
       <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.18993288" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
